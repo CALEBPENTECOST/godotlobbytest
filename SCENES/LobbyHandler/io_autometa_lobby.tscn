@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://SCENES/LobbyHandler/io_autometa_lobby.gd" type="Script" id=1]
+
+
+
+[node name="io_autometa_lobby" type="Node" index="0"]
+
+script = ExtResource( 1 )
+LobbyServer = "test.com"
+
+
